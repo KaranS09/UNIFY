@@ -1,11 +1,11 @@
-import { Welcome } from "./components";
-import ReactDOM from "react-dom/client";
+import { formes } from "./components";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Shardpay from "../src/components/Shardpay/Shardpay";
 import SharDefi from "./components/SharDefi/SharDefi";
 import Navbar from "./components/Shardpay/Navbar";
 import Landing from "./components/Landing/Landing";
 import Unify from "./components/Unify/unify";
+import Forms from "./components/Forms";
 
 const App = () => {
   return (
@@ -18,6 +18,9 @@ const App = () => {
           <Switch>
             <Route path="/Shardpay">
               <Shardpay />
+            </Route>
+            <Route path="/forms">
+              <Forms />
             </Route>
             <Route path="/SharDefi">
               <SharDefi />

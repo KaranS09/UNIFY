@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@uniswap/widgets": "^2.51.2",
+    "axios": "^1.4.0",
     "buffer": "^6.0.3",
     "ethers": "^5.7.2",
     "events": "^3.3.0",

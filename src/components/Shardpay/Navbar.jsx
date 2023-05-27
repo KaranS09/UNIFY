@@ -30,6 +30,9 @@ const Navbar = () => {
           <button className="buton">
             <a href="/Unify">Unify</a>
           </button>
+          <button className="buton">
+            <a href="/forms">Sign Up</a>
+          </button>
         </div>
         <div className="md:flex flex-initial flex-row justify- float-left items-center px-5">
           <span className="text-white flex flex-row  justify-center items-center p-2">
