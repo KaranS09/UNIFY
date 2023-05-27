@@ -124,6 +124,10 @@ body {
   border-radius: 10px;
 }
 
+.blank {
+  display: none;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
