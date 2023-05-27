@@ -1,5 +1,8 @@
 import React, { useRef, useState } from "react";
 import { NftStorageHttpService } from "./ap/nftstorage";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
+import { withRouter } from "react-router-dom";
+import Profile from "./Profile";
 
 const Forms = () => {
   const nameInputRef = useRef();
@@ -36,6 +39,7 @@ const Forms = () => {
     if (!enteredAge || !enteredName || !enteredInterests || !enteredSkillsets) {
       return alert("Enter Proper details!");
     }
+    this.props.history.push("/Profile");
   };
 
   const labelStyle =

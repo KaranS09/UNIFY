@@ -22,13 +22,7 @@ const Navbar = () => {
       </div> */}
         <div className="buttonsdiv">
           <button className="buton">
-            <a href="/Shardpay">5irepay</a>
-          </button>
-          <button className="buton">
-            <a href="/SharDefi">5ireDefi</a>
-          </button>
-          <button className="buton">
-            <a href="/Unify">Unify</a>
+            <a href="/Buttons">Explore</a>
           </button>
           <button className="buton">
             <a href="/forms">Sign Up</a>

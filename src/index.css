@@ -128,6 +128,23 @@ body {
   display: none;
 }
 
+.buttonssdiv {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.butons {
+  margin-left: 20px;
+  color: white;
+  background-color: blue;
+  margin-top: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 350px;
+  height: 400px;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
